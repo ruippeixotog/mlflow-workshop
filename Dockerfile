@@ -1,4 +1,4 @@
-FROM continuumio/miniconda:4.5.4
+FROM continuumio/miniconda3:4.5.4
 
 RUN pip install mlflow>=1.0 \
     && pip install azure-storage==0.36.0 \
