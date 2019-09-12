@@ -3,7 +3,7 @@ name: tutorial
 # conda_env: conda.yaml
 
 docker_env:
-  image: ruippeixotog-mlflow-docker-example
+  image: ruippeixotog/mlflow-workshop-base
 
 entry_points:
   main:
